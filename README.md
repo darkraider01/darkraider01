@@ -1,4 +1,4 @@
-![👋 Hi, my name is Brandybuck](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/79731568097599.5b50bca477735.jpg)
+
 
 ![Profile views](https://komarev.com/ghpvc/?username=darkraider01&label=Profile%20views&color=0e75b6&style=flat)
 
@@ -12,7 +12,6 @@
   </ul>
 </div>
 
-**<h3 align="left">Connect with me:</h3>** 
 
 
  **<h3 align="left">I'm a passionate second-year BTech CSE student with a strong interest in cybersecurity and blockchain. I've honed my skills in Solidity, ML, Python, JavaScript, Java, and C. </h3>**
