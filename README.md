@@ -1,7 +1,3 @@
-Reorder Sections
-Preview
-Markdown
-Copy
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is darkraider01
 =====================================================================================================================================
 
@@ -26,15 +22,59 @@ Currently, I'm contributing to open-source projects while building CAPA, an AI-p
 
 ### Socials
 
-<p align="left"> <a href="https://www.github.com/https://github.com/darkraider01" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.gitlab.com/https://gitlab.com/darkraider01" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab.svg" width="32" height="32" alt="GitLab" title="GitLab" /> </picture> </a> <a href="https://www.x.com/https://x.com/DarkraiderO" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" alt="Twitter" title="Twitter" /> </picture> </a> <a href="https://discord.com/users/whiskeytricepsss" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" title="Discord" /> </picture> </a></p>
-<a href="https://www.github.com/https://github.com/darkraider01" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/https://github.com/darkraider01?logo=github&style=for-the-badge&color=0f172a&labelColor=1c1917" /></a>
-### Badges
+<p align="left">
+  <a href="https://github.com/darkraider01" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" />
+    </picture>
+  </a>
+  <a href="https://gitlab.com/darkraider01" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab.svg" width="32" height="32" alt="GitLab" title="GitLab" />
+    </picture>
+  </a>
+  <a href="https://x.com/DarkraiderO" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" alt="Twitter" title="Twitter" />
+    </picture>
+  </a>
+  <a href="https://discord.com/users/whiskeytricepsss" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" title="Discord" />
+    </picture>
+  </a>
+</p>
 
-<b>My GitHub Stats</b>
+<p align="left">
+  <a href="https://github.com/darkraider01" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/github/followers/darkraider01?logo=github&style=for-the-badge&color=0f172a&labelColor=1c1917" alt="GitHub Followers" />
+  </a>
+</p>
 
-<a href="http://www.github.com/https://github.com/darkraider01"><img src="https://github-readme-stats.vercel.app/api?username=https://github.com/darkraider01&show_icons=true&hide=&count_private=true&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true&show_icons=true" alt="https://github.com/darkraider01's GitHub stats" /></a>
+### My GitHub Stats
 
-<a href="http://www.github.com/https://github.com/darkraider01"><img src="https://github-readme-streak-stats.herokuapp.com/?user=https://github.com/darkraider01&stroke=ffffff&background=1c1917&ring=14b8a6&fire=14b8a6&currStreakNum=ffffff&currStreakLabel=14b8a6&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+<p align="left">
+  <a href="https://github.com/darkraider01">
+    <img src="https://github-readme-stats.vercel.app/api?username=darkraider01&show_icons=true&count_private=true&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true" alt="darkraider01's GitHub stats" />
+  </a>
+</p>
 
-<a href="https://github.com/https://github.com/darkraider01" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=https://github.com/darkraider01&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<p align="left">
+  <a href="https://github.com/darkraider01">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkraider01&stroke=ffffff&background=1c1917&ring=14b8a6&fire=14b8a6&currStreakNum=ffffff&currStreakLabel=14b8a6&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="darkraider01's Streak Stats" />
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/darkraider01">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkraider01&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
+  </a>
+</p>
