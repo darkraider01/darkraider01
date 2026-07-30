@@ -65,12 +65,18 @@ Currently, I'm contributing to open-source projects while building CAPA, an AI-p
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://streak-stats.demolab.com/?user=darkraider01&stroke=ffffff&background=1c1917&ring=14b8a6&fire=14b8a6&currStreakNum=ffffff&currStreakLabel=14b8a6&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="darkraider01's Streak Stats" />
+    <img src="https://streak-stats.demolab.com/?user=darkraider01&theme=dark&stroke=ffffff&background=1c1917&ring=14b8a6&fire=14b8a6&currStreakNum=ffffff&currStreakLabel=14b8a6&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="darkraider01's Streak Stats" />
   </a>
 </p>
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=darkraider01&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=darkraider01&hide=jupyter%20notebook&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/darkraider01">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=darkraider01&theme=react-dark&hide_border=true" alt="darkraider01's Activity Graph" />
   </a>
 </p>
