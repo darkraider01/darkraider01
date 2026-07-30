@@ -31,11 +31,7 @@ Currently, I'm contributing to open-source projects while building CAPA, an AI-p
     </picture>
   </a>
   <a href="https://gitlab.com/darkraider01" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab.svg" />
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab.svg" width="32" height="32" alt="GitLab" title="GitLab" />
-    </picture>
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gitlab.svg" width="32" height="32" alt="GitLab" title="GitLab" />
   </a>
   <a href="https://x.com/DarkraiderO" target="_blank" rel="noreferrer">
     <picture>
@@ -63,18 +59,18 @@ Currently, I'm contributing to open-source projects while building CAPA, an AI-p
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://github-readme-stats.vercel.app/api?username=darkraider01&show_icons=true&count_private=true&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true" alt="darkraider01's GitHub stats" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=darkraider01&show_icons=true&count_private=true&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true" alt="darkraider01's GitHub stats" />
   </a>
 </p>
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkraider01&stroke=ffffff&background=1c1917&ring=14b8a6&fire=14b8a6&currStreakNum=ffffff&currStreakLabel=14b8a6&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="darkraider01's Streak Stats" />
+    <img src="https://streak-stats.demolab.com/?user=darkraider01&stroke=ffffff&background=1c1917&ring=14b8a6&fire=14b8a6&currStreakNum=ffffff&currStreakLabel=14b8a6&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="darkraider01's Streak Stats" />
   </a>
 </p>
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkraider01&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=darkraider01&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=0f172a&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
   </a>
 </p>
