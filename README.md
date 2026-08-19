@@ -59,7 +59,7 @@ Currently, I'm contributing to open-source projects while building CAPA, an AI-p
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://github-stats-extended.vercel.app/api?username=darkraider01&show_icons=true&count_private=true&title_color=14b8a6&text_color=ffffff&icon_color=14b8a6&bg_color=1c1917&hide_border=true" alt="darkraider01's GitHub stats" />
+    <img src="https://github-stats-extended.vercel.app/api?username=darkraider01&show_icons=true&count_private=true&commits_year=2026&title_color=14b8a6&text_color=ffffff&icon_color=14b8a6&bg_color=1c1917&hide_border=true" alt="darkraider01's GitHub stats" />
   </a>
 </p>
 
