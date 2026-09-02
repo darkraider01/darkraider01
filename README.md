@@ -92,6 +92,6 @@ Currently, I'm contributing to open-source projects while building CAPA, an AI-p
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=darkraider01&bg_color=1c1917&color=ffffff&line=14b8a6&point=14b8a6&area=true&area_color=14b8a6&hide_border=true&custom_title=Contribution%20Graph" alt="darkraider01's Activity Graph" />
+    <img src="https://activity-graph.vercel.app/graph?username=darkraider01&bg_color=1c1917&color=ffffff&line=14b8a6&point=14b8a6&area=true&area_color=14b8a6&hide_border=true&custom_title=Contribution%20Graph" alt="darkraider01's Activity Graph" />
   </a>
 </p>
