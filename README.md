@@ -11,6 +11,7 @@ My primary languages are Rust, Go, and Python, and my interests span distributed
 Currently, I'm contributing to open-source projects while building CAPA, an AI-powered capability intelligence engine, and exploring large-scale systems engineering and AI infrastructure.
 
 * 🌍  I'm based in India
+* 🔗  Check out my portfolio at [portfolio1-ishanghosh.vercel.app](https://portfolio1-ishanghosh.vercel.app/)
 * ✉️  You can contact me at [darkraider0111@gmail.com](mailto:darkraider0111@gmail.com)
 * 🧠  I'm currently learning Go • eBPF • OpenTelemetry • Distributed Systems • C++
 * 👥  I'm looking to collaborate on Rust, Go, AI Infrastructure, Developer Tooling, and Open Source projects
