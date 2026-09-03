@@ -59,16 +59,16 @@ Currently, I'm contributing to open-source projects while building CAPA, an AI-p
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**24** Merged PRs &nbsp;·&nbsp; **19** Issues Raised &nbsp;·&nbsp; **8** Issues Taken &nbsp;·&nbsp; **13** Reviews Given
+**25** Merged PRs &nbsp;·&nbsp; **19** Issues Raised &nbsp;·&nbsp; **8** Issues Taken &nbsp;·&nbsp; **13** Reviews Given
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1316) — refactor(tool): replace duplicate writeCloser interfaces with io.WriteCloser
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1300) — refactor(tool): merge small single-purpose files into fewer files
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1291) — docs(schemas): backfill missing coverage rows for aws and linodego
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1294) — chore(tool): drop redundant comments on rule struct fields
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3647) — feat(sdk): publicly export OTEL_* env var and default constants
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1252) — chore(tool/internal/instrument): resolve TODO on HookContextImpl meth…
 
-<sub>Updated 2026-09-02 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-03 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
