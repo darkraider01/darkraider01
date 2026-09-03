@@ -11,6 +11,7 @@ if (!TOKEN) throw new Error('GH_TOKEN env var is required');
 // -user:USERNAME excludes their own repos: this tracks OSS contributions, not personal projects.
 const CATEGORIES = [
   ['mergedPRs', 'Merged PRs', `is:pr is:merged author:${USERNAME} -user:${USERNAME}`],
+  ['openPRs', 'Open PRs', `is:pr is:open author:${USERNAME} -user:${USERNAME}`],
   ['issuesCreated', 'Issues Raised', `is:issue author:${USERNAME} -user:${USERNAME}`],
   ['issuesAssigned', 'Issues Taken', `is:issue assignee:${USERNAME} -user:${USERNAME}`],
   ['reviewsGiven', 'Reviews Given', `is:pr reviewed-by:${USERNAME} -author:${USERNAME} -user:${USERNAME}`]
@@ -53,18 +54,23 @@ const byKey = Object.fromEntries(results);
 
 const statsRow = CATEGORIES.map(([key, label]) => `**${byKey[key].issueCount}** ${label}`).join(' &nbsp;·&nbsp; ');
 
-const recentPRs = byKey.mergedPRs.nodes
-  .sort((a, b) => new Date(b.mergedAt) - new Date(a.mergedAt))
-  .map(pr => `- [\`${pr.repository.nameWithOwner}\`](${pr.url}) — ${pr.title}`)
-  .join('\n');
+const prList = (nodes, dateKey) =>
+  nodes
+    .slice()
+    .sort((a, b) => new Date(b[dateKey]) - new Date(a[dateKey]))
+    .map(pr => `- [\`${pr.repository.nameWithOwner}\`](${pr.url}) — ${pr.title}`)
+    .join('\n') || '_none yet_';
 
 const block = `<!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
 ${statsRow}
 
+**Recent open PRs**
+${prList(byKey.openPRs.nodes, 'createdAt')}
+
 **Recent merged PRs**
-${recentPRs || '_none yet_'}
+${prList(byKey.mergedPRs.nodes, 'mergedAt')}
 
 <sub>Updated ${new Date().toISOString().slice(0, 10)} · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->`;
