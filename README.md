@@ -94,12 +94,6 @@ Currently, I'm contributing to open-source projects while building rust compile 
 
 <p align="left">
   <a href="https://github.com/darkraider01">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=darkraider01&hide=jupyter%20notebook&langs_count=10&title_color=14b8a6&text_color=ffffff&icon_color=14b8a6&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://github.com/darkraider01">
     <img src="https://activity-graph.vercel.app/graph?username=darkraider01&bg_color=1c1917&color=ffffff&line=14b8a6&point=14b8a6&area=true&area_color=14b8a6&hide_border=true&custom_title=Contribution%20Graph" alt="darkraider01's Activity Graph" />
   </a>
 </p>
