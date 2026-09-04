@@ -8,7 +8,7 @@ I'm a Software Engineering student passionate about building high-performance ba
 
 My primary languages are Rust, Go, and Python, and my interests span distributed systems, observability, compiler instrumentation, machine learning, and AI systems. I enjoy solving complex engineering problems, contributing to open source, and building software that is fast, reliable, and production-ready.
 
-Currently, I'm contributing to open-source projects while building CAPA, an AI-powered capability intelligence engine, and exploring large-scale systems engineering and AI infrastructure.
+Currently, I'm contributing to open-source projects while building rust compile time instrumentation, and exploring large-scale systems engineering and AI infrastructure.
 
 * 🌍  I'm based in India
 * 🔗  Check out my portfolio at [portfolio1-ishanghosh.vercel.app](https://portfolio1-ishanghosh.vercel.app/)
