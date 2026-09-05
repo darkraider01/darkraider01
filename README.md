@@ -59,23 +59,23 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**25** Merged PRs &nbsp;·&nbsp; **13** Open PRs &nbsp;·&nbsp; **19** Issues Raised &nbsp;·&nbsp; **8** Issues Taken &nbsp;·&nbsp; **13** Reviews Given
+**26** Merged PRs &nbsp;·&nbsp; **11** Open PRs &nbsp;·&nbsp; **20** Issues Raised &nbsp;·&nbsp; **8** Issues Taken &nbsp;·&nbsp; **15** Reviews Given
 
 **Recent open PRs**
+- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3685) — feat(sdk): allow configuring all 5 ParentBased sampler branches
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3299) — Fix HTTP/2 and gRPC spans losing their peer by falling back to :authority
-- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3679) — fix(sdk): drop NaN/Infinity measurements in Histogram, Sum, LastValue, PrecomputedSum
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3659) — refactor(sdk): SpanProcessor::on_end takes &mut FinishedSpan instead of owned SpanData
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1316) — refactor(tool): replace duplicate writeCloser interfaces with io.WriteCloser
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1300) — refactor(tool): merge small single-purpose files into fewer files
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1291) — docs(schemas): backfill missing coverage rows for aws and linodego
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1294) — chore(tool): drop redundant comments on rule struct fields
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1252) — chore(tool/internal/instrument): resolve TODO on HookContextImpl meth…
 
-<sub>Updated 2026-09-04 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-05 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
