@@ -59,14 +59,14 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**28** Merged PRs &nbsp;·&nbsp; **12** Open PRs &nbsp;·&nbsp; **22** Issues Raised &nbsp;·&nbsp; **8** Issues Taken &nbsp;·&nbsp; **16** Reviews Given
+**30** Merged PRs &nbsp;·&nbsp; **13** Open PRs &nbsp;·&nbsp; **22** Issues Raised &nbsp;·&nbsp; **9** Issues Taken &nbsp;·&nbsp; **16** Reviews Given
 
 **Recent open PRs**
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3720) — fix(metrics): retain delta baseline across missed collection in PrecomputedSum
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1351) — refactor(tool): use []string instead of map for module directories
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1350) — fix(tool/internal/setup): handle test flags and delimiters for go test
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3371) — generictracer: backfill listening ports for processes discovered late
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1333) — feat(tool): write instrumentation diff under --debug
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1329) — chore: remove CHANGELOG.md re-introduced in #1012
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3685) — feat(sdk): allow configuring all 5 ParentBased sampler branches
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3679) — fix(sdk): drop NaN/Infinity measurements in Histogram, Sum, LastValue, PrecomputedSum
 
 **Recent merged PRs**
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3299) — Fix HTTP/2 and gRPC spans losing their peer by falling back to :authority
@@ -75,7 +75,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1316) — refactor(tool): replace duplicate writeCloser interfaces with io.WriteCloser
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1300) — refactor(tool): merge small single-purpose files into fewer files
 
-<sub>Updated 2026-09-10 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-11 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
