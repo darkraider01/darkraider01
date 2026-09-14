@@ -59,23 +59,23 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**30** Merged PRs &nbsp;·&nbsp; **13** Open PRs &nbsp;·&nbsp; **22** Issues Raised &nbsp;·&nbsp; **9** Issues Taken &nbsp;·&nbsp; **19** Reviews Given
+**31** Merged PRs &nbsp;·&nbsp; **14** Open PRs &nbsp;·&nbsp; **22** Issues Raised &nbsp;·&nbsp; **9** Issues Taken &nbsp;·&nbsp; **19** Reviews Given
 
 **Recent open PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8478) — stream: implement FusedStream for Empty and Once
+- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3401) — gotracer: support nested and reentrant Go gRPC client invocations 
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3720) — fix(metrics): retain delta baseline across missed collection in PrecomputedSum
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1351) — refactor(tool): use []string instead of map for module directories
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1350) — fix(tool/internal/setup): handle test flags and delimiters for go test
-- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3371) — generictracer: backfill listening ports for processes discovered late
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1333) — feat(tool): write instrumentation diff under --debug
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1329) — chore: remove CHANGELOG.md re-introduced in #1012
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3299) — Fix HTTP/2 and gRPC spans losing their peer by falling back to :authority
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1316) — refactor(tool): replace duplicate writeCloser interfaces with io.WriteCloser
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1300) — refactor(tool): merge small single-purpose files into fewer files
 
-<sub>Updated 2026-09-13 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-14 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
