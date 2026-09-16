@@ -59,14 +59,14 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**32** Merged PRs &nbsp;·&nbsp; **13** Open PRs &nbsp;·&nbsp; **22** Issues Raised &nbsp;·&nbsp; **9** Issues Taken &nbsp;·&nbsp; **20** Reviews Given
+**32** Merged PRs &nbsp;·&nbsp; **15** Open PRs &nbsp;·&nbsp; **22** Issues Raised &nbsp;·&nbsp; **9** Issues Taken &nbsp;·&nbsp; **20** Reviews Given
 
 **Recent open PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8486) — tokio-util: add inspect adapter accessors
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8485) — stream: implement FusedStream for Throttle
 - [`kubernetes/autoscaler`](https://github.com/kubernetes/autoscaler/pull/10290) — civo: fix pool count mismatch validation and decrease error message
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3401) — gotracer: support nested and reentrant Go gRPC client invocations 
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3720) — fix(metrics): retain delta baseline across missed collection in PrecomputedSum
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1351) — refactor(tool): use []string instead of map for module directories
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1350) — fix(tool/internal/setup): handle test flags and delimiters for go test
 
 **Recent merged PRs**
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8478) — stream: implement FusedStream for Empty and Once
@@ -75,7 +75,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 
-<sub>Updated 2026-09-15 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-16 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
