@@ -59,14 +59,14 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**32** Merged PRs &nbsp;·&nbsp; **15** Open PRs &nbsp;·&nbsp; **22** Issues Raised &nbsp;·&nbsp; **9** Issues Taken &nbsp;·&nbsp; **23** Reviews Given
+**32** Merged PRs &nbsp;·&nbsp; **16** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **23** Reviews Given
 
 **Recent open PRs**
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3745) — feat(sdk): add set_global_text_map_propagator_from_env helper
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3741) — feat(sdk): simplify finished span ownership
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8486) — tokio-util: add inspect adapter accessors
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8485) — stream: implement FusedStream for Throttle
 - [`kubernetes/autoscaler`](https://github.com/kubernetes/autoscaler/pull/10290) — civo: fix pool count mismatch validation and decrease error message
-- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3401) — gotracer: support nested and reentrant Go gRPC client invocations 
 
 **Recent merged PRs**
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8478) — stream: implement FusedStream for Empty and Once
@@ -75,7 +75,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 
-<sub>Updated 2026-09-17 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-18 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
