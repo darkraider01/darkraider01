@@ -59,7 +59,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**32** Merged PRs &nbsp;·&nbsp; **18** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **24** Reviews Given
+**32** Merged PRs &nbsp;·&nbsp; **18** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **25** Reviews Given
 
 **Recent open PRs**
 - [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/139) — docs: propose OpenTelemetry runtime metrics integration
@@ -75,7 +75,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 
-<sub>Updated 2026-09-20 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-21 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
