@@ -59,14 +59,14 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**32** Merged PRs &nbsp;·&nbsp; **18** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **25** Reviews Given
+**32** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **25** Reviews Given
 
 **Recent open PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — tests: assert exact call-site line for task spawn hooks
 - [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/139) — docs: propose OpenTelemetry runtime metrics integration
 - [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/138) — fix: fix dev builds and doc tests on Windows
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3745) — feat(sdk): add set_global_text_map_propagator_from_env helper
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3741) — feat(sdk): simplify finished span ownership
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8486) — tokio-util: add inspect adapter accessors
 
 **Recent merged PRs**
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8478) — stream: implement FusedStream for Empty and Once
@@ -75,7 +75,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 
-<sub>Updated 2026-09-21 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-22 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
