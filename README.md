@@ -59,7 +59,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**32** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **25** Reviews Given
+**33** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **25** Reviews Given
 
 **Recent open PRs**
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — tests: assert exact call-site line for task spawn hooks
@@ -69,13 +69,13 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3741) — feat(sdk): simplify finished span ownership
 
 **Recent merged PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8500) — stream: implement FusedStream for MPSC receiver wrappers
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8478) — stream: implement FusedStream for Empty and Once
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1329) — chore: remove CHANGELOG.md re-introduced in #1012
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3299) — Fix HTTP/2 and gRPC spans losing their peer by falling back to :authority
 - [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
-- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3298) — Fix out-of-bounds read in fill_msg_buffers when msg pull fails
 
-<sub>Updated 2026-09-22 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-23 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
