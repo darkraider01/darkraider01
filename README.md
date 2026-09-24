@@ -59,23 +59,23 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**33** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **10** Issues Taken &nbsp;·&nbsp; **25** Reviews Given
+**35** Merged PRs &nbsp;·&nbsp; **18** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **11** Issues Taken &nbsp;·&nbsp; **26** Reviews Given
 
 **Recent open PRs**
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — tests: assert exact call-site line for task spawn hooks
+- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17509) — fix(package): preserve feature metadata in normalized manifests
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — tests: cover task builder spawn locations
 - [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/139) — docs: propose OpenTelemetry runtime metrics integration
 - [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/138) — fix: fix dev builds and doc tests on Windows
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3745) — feat(sdk): add set_global_text_map_propagator_from_env helper
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3741) — feat(sdk): simplify finished span ownership
 
 **Recent merged PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8486) — tokio-util: add inspect adapter accessors
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8485) — stream: implement FusedStream for Throttle
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8500) — stream: implement FusedStream for MPSC receiver wrappers
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8478) — stream: implement FusedStream for Empty and Once
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1329) — chore: remove CHANGELOG.md re-introduced in #1012
-- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3299) — Fix HTTP/2 and gRPC spans losing their peer by falling back to :authority
-- [`open-telemetry/opentelemetry-ebpf-instrumentation`](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation/pull/3323) — Fix pre-fork Python service name attribution falling back to python3.14
 
-<sub>Updated 2026-09-23 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-24 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
