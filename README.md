@@ -59,23 +59,23 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**35** Merged PRs &nbsp;·&nbsp; **18** Open PRs &nbsp;·&nbsp; **23** Issues Raised &nbsp;·&nbsp; **11** Issues Taken &nbsp;·&nbsp; **26** Reviews Given
+**41** Merged PRs &nbsp;·&nbsp; **16** Open PRs &nbsp;·&nbsp; **26** Issues Raised &nbsp;·&nbsp; **12** Issues Taken &nbsp;·&nbsp; **29** Reviews Given
 
 **Recent open PRs**
-- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17509) — fix(package): preserve feature metadata in normalized manifests
+- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163314) — move `#[macro_export]` on declarative macro check to `rustc_attr_parsing`
+- [`open-telemetry/opentelemetry-rust-contrib`](https://github.com/open-telemetry/opentelemetry-rust-contrib/pull/811) — feat(config): add declarative metrics configuration support
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8505) — io: add Loom coverage for deregistration and event delivery
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — tests: cover task builder spawn locations
 - [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/139) — docs: propose OpenTelemetry runtime metrics integration
-- [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/138) — fix: fix dev builds and doc tests on Windows
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3745) — feat(sdk): add set_global_text_map_propagator_from_env helper
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-go-compile-contrib`](https://github.com/open-telemetry/opentelemetry-go-compile-contrib/pull/12) — chore: address initial repo setup gaps and follow-up items
+- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17509) — fix(package): preserve feature metadata in normalized manifests
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8486) — tokio-util: add inspect adapter accessors
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8485) — stream: implement FusedStream for Throttle
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8500) — stream: implement FusedStream for MPSC receiver wrappers
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8478) — stream: implement FusedStream for Empty and Once
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1329) — chore: remove CHANGELOG.md re-introduced in #1012
 
-<sub>Updated 2026-09-24 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-25 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
