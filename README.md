@@ -59,14 +59,14 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**41** Merged PRs &nbsp;·&nbsp; **16** Open PRs &nbsp;·&nbsp; **26** Issues Raised &nbsp;·&nbsp; **12** Issues Taken &nbsp;·&nbsp; **29** Reviews Given
+**41** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **27** Issues Raised &nbsp;·&nbsp; **13** Issues Taken &nbsp;·&nbsp; **30** Reviews Given
 
 **Recent open PRs**
+- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17517) — feat(metadata): mirror package features in features_v2
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163314) — move `#[macro_export]` on declarative macro check to `rustc_attr_parsing`
 - [`open-telemetry/opentelemetry-rust-contrib`](https://github.com/open-telemetry/opentelemetry-rust-contrib/pull/811) — feat(config): add declarative metrics configuration support
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8505) — io: add Loom coverage for deregistration and event delivery
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — tests: cover task builder spawn locations
-- [`tokio-rs/tokio-metrics`](https://github.com/tokio-rs/tokio-metrics/pull/139) — docs: propose OpenTelemetry runtime metrics integration
 
 **Recent merged PRs**
 - [`open-telemetry/opentelemetry-go-compile-contrib`](https://github.com/open-telemetry/opentelemetry-go-compile-contrib/pull/12) — chore: address initial repo setup gaps and follow-up items
@@ -75,7 +75,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8485) — stream: implement FusedStream for Throttle
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8500) — stream: implement FusedStream for MPSC receiver wrappers
 
-<sub>Updated 2026-09-25 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-26 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
