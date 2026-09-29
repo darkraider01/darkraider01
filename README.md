@@ -59,7 +59,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**43** Merged PRs &nbsp;·&nbsp; **20** Open PRs &nbsp;·&nbsp; **27** Issues Raised &nbsp;·&nbsp; **13** Issues Taken &nbsp;·&nbsp; **31** Reviews Given
+**44** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **27** Issues Raised &nbsp;·&nbsp; **13** Issues Taken &nbsp;·&nbsp; **31** Reviews Given
 
 **Recent open PRs**
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3761) — fix: accept optional whitespace in TraceState
@@ -69,13 +69,13 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1405) — fix(instrumentation/linodego): attach error.type attribute for non-HTTP failures
 
 **Recent merged PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — task: test task builder spawn locations
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17517) — feat(metadata): mirror package features in features_v2
 - [`open-telemetry/opentelemetry-go-compile-contrib`](https://github.com/open-telemetry/opentelemetry-go-compile-contrib/pull/12) — chore: address initial repo setup gaps and follow-up items
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17509) — fix(package): preserve feature metadata in normalized manifests
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8486) — tokio-util: add inspect adapter accessors
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8500) — stream: implement FusedStream for MPSC receiver wrappers
 
-<sub>Updated 2026-09-28 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-09-29 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
