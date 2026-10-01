@@ -59,14 +59,14 @@ Currently, I'm contributing to open-source projects while building rust compile 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**44** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **29** Issues Raised &nbsp;·&nbsp; **13** Issues Taken &nbsp;·&nbsp; **31** Reviews Given
+**44** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **14** Issues Taken &nbsp;·&nbsp; **31** Reviews Given
 
 **Recent open PRs**
+- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17541) — Suggest inheriting repository fields in explicit workspaces
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5364) — Keep cargo-miri arguments in one place
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3761) — fix: accept optional whitespace in TraceState
 - [`tokio-rs/loom`](https://github.com/tokio-rs/loom/pull/427) — Let Loom run one execution from fuzzer input
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3759) — docs(trace): explain async context propagation
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3758) — test(proto): add tracing OTLP contract coverage
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1405) — fix(instrumentation/linodego): attach error.type attribute for non-HTTP failures
 
 **Recent merged PRs**
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8499) — task: test task builder spawn locations
@@ -75,7 +75,7 @@ Currently, I'm contributing to open-source projects while building rust compile 
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17509) — fix(package): preserve feature metadata in normalized manifests
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8500) — stream: implement FusedStream for MPSC receiver wrappers
 
-<sub>Updated 2026-09-30 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-10-01 · auto-refreshed daily from live GitHub search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
 
 ### My GitHub Stats
