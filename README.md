@@ -1,18 +1,12 @@
 # darkraider01
 
-Systems Software Engineer · Rust · Go · Python · AI Infrastructure
+Systems Software Engineer · Rust · Go · AI Infrastructure
 
-I'm a software engineering student building high-performance backend systems, developer tooling, and AI infrastructure. I care about software that is fast, reliable, and production-ready.
+I build high-performance backend systems, developer tooling, and AI infrastructure. Currently contributing to open source while building Rust compile-time instrumentation.
 
-Currently contributing to open source while building Rust compile-time instrumentation, and studying distributed systems and large-scale AI infrastructure.
+**India** · [darkraider0111@gmail.com](mailto:darkraider0111@gmail.com) · [portfolio](https://portfolio1-ishanghosh.vercel.app/) · [GitHub](https://github.com/darkraider01) · [GitLab](https://gitlab.com/darkraider01) · [X](https://x.com/DarkraiderO) · [Discord](https://discord.com/users/whiskeytricepsss)
 
-**Based in** India
-**Contact** [darkraider0111@gmail.com](mailto:darkraider0111@gmail.com) · [portfolio1-ishanghosh.vercel.app](https://portfolio1-ishanghosh.vercel.app/)
-**Links** [GitHub](https://github.com/darkraider01) · [GitLab](https://gitlab.com/darkraider01) · [X](https://x.com/DarkraiderO) · [Discord](https://discord.com/users/whiskeytricepsss)
-
-**Languages** Rust, Go, Python, C++, Bash, Java
-**Learning** eBPF, OpenTelemetry, distributed systems
-**Open to** collaboration on Rust, Go, AI infrastructure, developer tooling, and open source
+**Learning** eBPF, OpenTelemetry, distributed systems · **Open to** Rust, Go, AI infra, and open-source collaboration
 
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
