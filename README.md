@@ -6,8 +6,6 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 
 **India** · [darkraider0111@gmail.com](mailto:darkraider0111@gmail.com) · [portfolio](https://portfolio1-ishanghosh.vercel.app/) · [GitHub](https://github.com/darkraider01) · [GitLab](https://gitlab.com/darkraider01) · [X](https://x.com/DarkraiderO) · [Discord](https://discord.com/users/whiskeytricepsss)
 
-**Learning** eBPF, kernel-level observability, distributed systems
-
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
