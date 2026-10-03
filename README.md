@@ -11,7 +11,18 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**48** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **14** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
+**GitHub** — **48** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **15** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
+**GitLab** — **0** Merged MRs &nbsp;·&nbsp; **0** Open MRs &nbsp;·&nbsp; **0** Issues Raised
+
+**Languages** (OSS contributions)
+
+```text
+Go        ██████████████████  51%
+Rust      ██████████████  40%
+C         ██   5%
+Makefile  █   3%
+Python    █   2%
+```
 
 **Recent open PRs**
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8582) — Remove obsolete MSRV workarounds
@@ -27,5 +38,5 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17517) — feat(metadata): mirror package features in features_v2
 - [`open-telemetry/opentelemetry-go-compile-contrib`](https://github.com/open-telemetry/opentelemetry-go-compile-contrib/pull/12) — chore: address initial repo setup gaps and follow-up items
 
-<sub>Updated 2026-10-03 · auto-refreshed daily from live GitHub search</sub>
+<sub>Updated 2026-10-03 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
