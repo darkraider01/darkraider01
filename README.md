@@ -11,8 +11,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**GitHub** — **48** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **15** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
-**GitLab** — **0** Merged MRs &nbsp;·&nbsp; **0** Open MRs &nbsp;·&nbsp; **0** Issues Raised
+**48** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **15** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
 
 **Languages** (OSS contributions)
 

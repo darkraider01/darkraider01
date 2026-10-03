@@ -10,11 +10,11 @@ if (!TOKEN) throw new Error('GH_TOKEN env var is required');
 // no hardcoded repo list, so new repos show up automatically.
 // -user:USERNAME excludes their own repos: this tracks OSS contributions, not personal projects.
 const CATEGORIES = [
-  ['mergedPRs', 'Merged PRs', `is:pr is:merged author:${USERNAME} -user:${USERNAME}`],
-  ['openPRs', 'Open PRs', `is:pr is:open author:${USERNAME} -user:${USERNAME}`],
-  ['issuesCreated', 'Issues Raised', `is:issue author:${USERNAME} -user:${USERNAME}`],
-  ['issuesAssigned', 'Issues Taken', `is:issue assignee:${USERNAME} -user:${USERNAME}`],
-  ['reviewsGiven', 'Reviews Given', `is:pr reviewed-by:${USERNAME} -author:${USERNAME} -user:${USERNAME}`]
+  ['mergedPRs', `is:pr is:merged author:${USERNAME} -user:${USERNAME}`],
+  ['openPRs', `is:pr is:open author:${USERNAME} -user:${USERNAME}`],
+  ['issuesCreated', `is:issue author:${USERNAME} -user:${USERNAME}`],
+  ['issuesAssigned', `is:issue assignee:${USERNAME} -user:${USERNAME}`],
+  ['reviewsGiven', `is:pr reviewed-by:${USERNAME} -author:${USERNAME} -user:${USERNAME}`]
 ];
 
 const QUERY = /* GraphQL */ `
@@ -62,7 +62,7 @@ const LANG_QUERY = /* GraphQL */ `
 `;
 
 const [results, langData] = await Promise.all([
-  Promise.all(CATEGORIES.map(([key, , q]) => graphql(QUERY, { q }).then(d => [key, d.search]))),
+  Promise.all(CATEGORIES.map(([key, q]) => graphql(QUERY, { q }).then(d => [key, d.search]))),
   graphql(LANG_QUERY, { q: `is:pr author:${USERNAME} -user:${USERNAME}` })
 ]);
 const byKey = Object.fromEntries(results);
@@ -85,9 +85,11 @@ async function gitlab(path, attempt = 1) {
 }
 
 async function fetchGitlabStats() {
-  const [mrs, issues] = await Promise.all([
+  const [mrs, issues, assignedIssues, reviewedMrs] = await Promise.all([
     gitlab(`/merge_requests?author_username=${USERNAME}&scope=all&state=all&per_page=100&order_by=created_at`),
-    gitlab(`/issues?author_username=${USERNAME}&scope=all&state=all&per_page=100`)
+    gitlab(`/issues?author_username=${USERNAME}&scope=all&state=all&per_page=100`),
+    gitlab(`/issues?assignee_username=${USERNAME}&scope=all&state=all&per_page=100`),
+    gitlab(`/merge_requests?reviewer_username=${USERNAME}&scope=all&state=all&per_page=100`)
   ]);
 
   // Exclude personal projects (anything under the user's own namespace), matching -user: on GitHub.
@@ -107,6 +109,8 @@ async function fetchGitlabStats() {
     mergedMRs: ossMrs.filter(m => m.state === 'merged').length,
     openMRs: ossMrs.filter(m => m.state === 'opened').length,
     issues: ossIssues.length,
+    taken: assignedIssues.filter(i => !isOwn(i.references.full)).length,
+    reviews: reviewedMrs.filter(m => !isOwn(m.references.full) && m.author?.username !== USERNAME).length,
     openMrs: ossMrs.filter(m => m.state === 'opened'),
     mergedMrs: ossMrs.filter(m => m.state === 'merged'),
     countLanguages(add) {
@@ -206,24 +210,24 @@ const mergedEntries = [
 
 // --- Assemble the block -----------------------------------------------------
 
-const statsRow = CATEGORIES.map(([key, label]) => `**${byKey[key].issueCount}** ${label}`).join(' &nbsp;·&nbsp; ');
+// One combined row: GitHub + GitLab totals in the same buckets.
+const statsRow = [
+  ['Merged PRs', byKey.mergedPRs.issueCount + (gitlabStats?.mergedMRs ?? 0)],
+  ['Open PRs', byKey.openPRs.issueCount + (gitlabStats?.openMRs ?? 0)],
+  ['Issues Raised', byKey.issuesCreated.issueCount + (gitlabStats?.issues ?? 0)],
+  ['Issues Taken', byKey.issuesAssigned.issueCount + (gitlabStats?.taken ?? 0)],
+  ['Reviews Given', byKey.reviewsGiven.issueCount + (gitlabStats?.reviews ?? 0)]
+]
+  .map(([label, count]) => `**${count}** ${label}`)
+  .join(' &nbsp;·&nbsp; ');
 
 const out = [
   '<!-- OSS-CONTRIBUTIONS:START -->',
   '### Live Open Source Activity',
   '',
-  `**GitHub** — ${statsRow}`
+  statsRow,
+  ''
 ];
-if (gitlabStats) {
-  out.push(
-    `**GitLab** — ${[
-      `**${gitlabStats.mergedMRs}** Merged MRs`,
-      `**${gitlabStats.openMRs}** Open MRs`,
-      `**${gitlabStats.issues}** Issues Raised`
-    ].join(' &nbsp;·&nbsp; ')}`
-  );
-}
-out.push('');
 if (langChart) out.push(langChart, '');
 out.push(
   '**Recent open PRs**',
