@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**48** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **15** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
+**48** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **17** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -35,5 +35,5 @@ Python    █   2%
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17517) — feat(metadata): mirror package features in features_v2
 - [`open-telemetry/opentelemetry-go-compile-contrib`](https://github.com/open-telemetry/opentelemetry-go-compile-contrib/pull/12) — chore: address initial repo setup gaps and follow-up items
 
-<sub>Updated 2026-10-03 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-04 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
