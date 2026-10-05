@@ -9,31 +9,31 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**48** Merged PRs &nbsp;·&nbsp; **17** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **17** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
+**49** Merged PRs &nbsp;·&nbsp; **19** Open PRs &nbsp;·&nbsp; **30** Issues Raised &nbsp;·&nbsp; **17** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
 
 **Languages** (OSS contributions)
 
 ```text
-Go        ██████████████████  51%
-Rust      ██████████████  40%
-C         ██   5%
+Go        █████████████████  49%
+Rust      ███████████████  43%
+C         █   4%
 Makefile  █   3%
-Python    █   2%
+Python    █   1%
 ```
 
 **Recent open PRs**
+- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163801) — Detect errors in opaque type bounds when deriving errors in next solver
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3775) — perf(trace): avoid locking for non-recording context spans
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3774) — perf(sdk): avoid tracer clones for non-recording spans
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8582) — Remove obsolete MSRV workarounds
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163673) — Move #[doc(inline)] and #[doc(no_inline)] validation into rustc_attr_parsing
-- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17541) — Suggest inheriting repository fields in explicit workspaces
-- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5364) — Keep cargo-miri arguments in one place
-- [`tokio-rs/loom`](https://github.com/tokio-rs/loom/pull/427) — Let Loom run one execution from fuzzer input
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3759) — docs(trace): explain async context propagation
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3761) — fix: accept optional whitespace in TraceState
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3758) — test(proto): add tracing OTLP contract coverage
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163314) — move `#[macro_export]` on declarative macro check to `rustc_attr_parsing`
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17517) — feat(metadata): mirror package features in features_v2
-- [`open-telemetry/opentelemetry-go-compile-contrib`](https://github.com/open-telemetry/opentelemetry-go-compile-contrib/pull/12) — chore: address initial repo setup gaps and follow-up items
 
-<sub>Updated 2026-10-04 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-05 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
