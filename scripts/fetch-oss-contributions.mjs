@@ -17,9 +17,11 @@ const CATEGORIES = [
   ['reviewsGiven', `is:pr reviewed-by:${USERNAME} -author:${USERNAME} -user:${USERNAME}`]
 ];
 
+// first:100 fetches every result so the "recent" lists can sort by actual
+// date client-side — a first:5 window misses PRs created long ago but merged recently.
 const QUERY = /* GraphQL */ `
   query ($q: String!) {
-    search(query: $q, type: ISSUE, first: 5) {
+    search(query: $q, type: ISSUE, first: 100) {
       issueCount
       nodes {
         ... on PullRequest { title url createdAt mergedAt repository { nameWithOwner } }

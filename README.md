@@ -29,11 +29,11 @@ Python    █   1%
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163673) — Move #[doc(inline)] and #[doc(no_inline)] validation into rustc_attr_parsing
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1351) — refactor(tool): use []string instead of map for module directories
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3759) — docs(trace): explain async context propagation
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3761) — fix: accept optional whitespace in TraceState
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3758) — test(proto): add tracing OTLP contract coverage
-- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163314) — move `#[macro_export]` on declarative macro check to `rustc_attr_parsing`
-- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17517) — feat(metadata): mirror package features in features_v2
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1350) — fix(tool/internal/setup): handle test flags and delimiters for go test
 
 <sub>Updated 2026-10-05 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
