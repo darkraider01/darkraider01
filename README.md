@@ -9,24 +9,24 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**51** Merged PRs &nbsp;·&nbsp; **18** Open PRs &nbsp;·&nbsp; **32** Issues Raised &nbsp;·&nbsp; **17** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
+**51** Merged PRs &nbsp;·&nbsp; **22** Open PRs &nbsp;·&nbsp; **32** Issues Raised &nbsp;·&nbsp; **18** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
 
 **Languages** (OSS contributions)
 
 ```text
-Go        █████████████████  48%
-Rust      ███████████████  43%
+Rust      ████████████████  47%
+Go        ████████████████  45%
 C         █   4%
 Makefile  █   3%
 Python    █   1%
 ```
 
 **Recent open PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
+- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15150) — tests: preserve environment overrides in WASI
+- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15140) — wc: count characters as bytes in single-byte locales
+- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15139) — wc: fix character counts for malformed UTF-8 input
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3777) — fix(sdk): log when the periodic metrics reader panics
-- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163801) — Detect errors in opaque type bounds when deriving errors in next solver
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3775) — perf(trace): avoid locking for non-recording context spans
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3774) — perf(sdk): avoid tracer clones for non-recording spans
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8582) — Remove obsolete MSRV workarounds
 
 **Recent merged PRs**
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163673) — Move #[doc(inline)] and #[doc(no_inline)] validation into rustc_attr_parsing
@@ -35,5 +35,5 @@ Python    █   1%
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3761) — fix: accept optional whitespace in TraceState
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3758) — test(proto): add tracing OTLP contract coverage
 
-<sub>Updated 2026-10-06 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-07 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
