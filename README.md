@@ -9,31 +9,31 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**51** Merged PRs &nbsp;·&nbsp; **22** Open PRs &nbsp;·&nbsp; **32** Issues Raised &nbsp;·&nbsp; **18** Issues Taken &nbsp;·&nbsp; **32** Reviews Given
+**52** Merged PRs &nbsp;·&nbsp; **25** Open PRs &nbsp;·&nbsp; **34** Issues Raised &nbsp;·&nbsp; **18** Issues Taken &nbsp;·&nbsp; **33** Reviews Given
 
 **Languages** (OSS contributions)
 
 ```text
-Rust      ████████████████  47%
-Go        ████████████████  45%
+Rust      █████████████████  49%
+Go        ███████████████  43%
 C         █   4%
 Makefile  █   3%
 Python    █   1%
 ```
 
 **Recent open PRs**
+- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163980) — Move check_rustc_must_implement_one_of validation to attribute parser
+- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15199) — uucore: detect character encodings for bare locale names
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8603) — process: route Unix child stdio through mio::IoSource
+- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17562) — Bypass rustup proxy when RUSTUP_TOOLCHAIN is an absolute path
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
-- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15150) — tests: preserve environment overrides in WASI
-- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15140) — wc: count characters as bytes in single-byte locales
-- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15139) — wc: fix character counts for malformed UTF-8 input
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3777) — fix(sdk): log when the periodic metrics reader panics
 
 **Recent merged PRs**
+- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15150) — tests: preserve environment overrides in WASI
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163673) — Move #[doc(inline)] and #[doc(no_inline)] validation into rustc_attr_parsing
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1351) — refactor(tool): use []string instead of map for module directories
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3759) — docs(trace): explain async context propagation
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3761) — fix: accept optional whitespace in TraceState
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3758) — test(proto): add tracing OTLP contract coverage
 
-<sub>Updated 2026-10-07 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-08 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
