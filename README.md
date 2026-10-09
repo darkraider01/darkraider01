@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**52** Merged PRs &nbsp;·&nbsp; **34** Issues Raised &nbsp;·&nbsp; **18** Issues Taken &nbsp;·&nbsp; **33** Reviews Given
+**52** Merged PRs &nbsp;·&nbsp; **25** Open PRs &nbsp;·&nbsp; **34** Issues Raised &nbsp;·&nbsp; **18** Issues Taken &nbsp;·&nbsp; **33** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -20,6 +20,13 @@ C         █   4%
 Makefile  █   3%
 Python    █   1%
 ```
+
+**Recent open PRs**
+- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/163980) — Move check_rustc_must_implement_one_of validation to attribute parser
+- [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15199) — uucore: detect character encodings for bare locale names
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8603) — process: route Unix child stdio through mio::IoSource
+- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17562) — Bypass rustup proxy when RUSTUP_TOOLCHAIN is an absolute path
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
 
 **Recent merged PRs**
 - [`uutils/coreutils`](https://github.com/uutils/coreutils/pull/15150) — tests: preserve environment overrides in WASI
