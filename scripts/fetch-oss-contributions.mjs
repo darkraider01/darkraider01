@@ -11,7 +11,6 @@ if (!TOKEN) throw new Error('GH_TOKEN env var is required');
 // -user:USERNAME excludes their own repos: this tracks OSS contributions, not personal projects.
 const CATEGORIES = [
   ['mergedPRs', `is:pr is:merged author:${USERNAME} -user:${USERNAME}`],
-  ['openPRs', `is:pr is:open author:${USERNAME} -user:${USERNAME}`],
   ['issuesCreated', `is:issue author:${USERNAME} -user:${USERNAME}`],
   ['issuesAssigned', `is:issue assignee:${USERNAME} -user:${USERNAME}`],
   ['reviewsGiven', `is:pr reviewed-by:${USERNAME} -author:${USERNAME} -user:${USERNAME}`]
@@ -109,11 +108,9 @@ async function fetchGitlabStats() {
 
   return {
     mergedMRs: ossMrs.filter(m => m.state === 'merged').length,
-    openMRs: ossMrs.filter(m => m.state === 'opened').length,
     issues: ossIssues.length,
     taken: assignedIssues.filter(i => !isOwn(i.references.full)).length,
     reviews: reviewedMrs.filter(m => !isOwn(m.references.full) && m.author?.username !== USERNAME).length,
-    openMrs: ossMrs.filter(m => m.state === 'opened'),
     mergedMrs: ossMrs.filter(m => m.state === 'merged'),
     countLanguages(add) {
       for (const m of ossMrs) {
@@ -201,10 +198,6 @@ const list = entries =>
     .map(e => `- [\`${e.repo}\`](${e.url}) — ${e.title}`)
     .join('\n') || '_none yet_';
 
-const openEntries = [
-  ...byKey.openPRs.nodes.map(n => ghEntry(n, 'createdAt')),
-  ...(gitlabStats?.openMrs ?? []).map(m => glEntry(m, 'created_at'))
-];
 const mergedEntries = [
   ...byKey.mergedPRs.nodes.map(n => ghEntry(n, 'mergedAt')),
   ...(gitlabStats?.mergedMrs ?? []).map(m => glEntry(m, 'merged_at'))
@@ -215,7 +208,6 @@ const mergedEntries = [
 // One combined row: GitHub + GitLab totals in the same buckets.
 const statsRow = [
   ['Merged PRs', byKey.mergedPRs.issueCount + (gitlabStats?.mergedMRs ?? 0)],
-  ['Open PRs', byKey.openPRs.issueCount + (gitlabStats?.openMRs ?? 0)],
   ['Issues Raised', byKey.issuesCreated.issueCount + (gitlabStats?.issues ?? 0)],
   ['Issues Taken', byKey.issuesAssigned.issueCount + (gitlabStats?.taken ?? 0)],
   ['Reviews Given', byKey.reviewsGiven.issueCount + (gitlabStats?.reviews ?? 0)]
@@ -232,9 +224,6 @@ const out = [
 ];
 if (langChart) out.push(langChart, '');
 out.push(
-  '**Recent open PRs**',
-  list(openEntries),
-  '',
   '**Recent merged PRs**',
   list(mergedEntries),
   '',
