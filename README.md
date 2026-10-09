@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**54** Merged PRs &nbsp;·&nbsp; **24** Open PRs &nbsp;·&nbsp; **34** Issues Raised &nbsp;·&nbsp; **19** Issues Taken &nbsp;·&nbsp; **33** Reviews Given
+**54** Merged PRs &nbsp;·&nbsp; **34** Issues Raised &nbsp;·&nbsp; **19** Issues Taken &nbsp;·&nbsp; **33** Reviews Given
 
 **Languages** (OSS contributions)
 

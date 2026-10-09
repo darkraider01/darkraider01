@@ -109,7 +109,6 @@ async function fetchGitlabStats() {
 
   return {
     mergedMRs: ossMrs.filter(m => m.state === 'merged').length,
-    openMRs: ossMrs.filter(m => m.state === 'opened').length,
     issues: ossIssues.length,
     taken: assignedIssues.filter(i => !isOwn(i.references.full)).length,
     reviews: reviewedMrs.filter(m => !isOwn(m.references.full) && m.author?.username !== USERNAME).length,
@@ -215,7 +214,6 @@ const mergedEntries = [
 // One combined row: GitHub + GitLab totals in the same buckets.
 const statsRow = [
   ['Merged PRs', byKey.mergedPRs.issueCount + (gitlabStats?.mergedMRs ?? 0)],
-  ['Open PRs', byKey.openPRs.issueCount + (gitlabStats?.openMRs ?? 0)],
   ['Issues Raised', byKey.issuesCreated.issueCount + (gitlabStats?.issues ?? 0)],
   ['Issues Taken', byKey.issuesAssigned.issueCount + (gitlabStats?.taken ?? 0)],
   ['Reviews Given', byKey.reviewsGiven.issueCount + (gitlabStats?.reviews ?? 0)]
