@@ -15,7 +15,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 
 ```text
 Rust        ██████████████████  51%
-Go          ██████████████  40%
+Go          ██████████████  41%
 C           █   4%
 Makefile    █   2%
 TypeScript  █   1%
@@ -23,11 +23,11 @@ Python      █   1%
 ```
 
 **Recent open PRs**
+- [`gitlab-org/gitaly`](https://gitlab.com/gitlab-org/gitaly/-/merge_requests/9385) — gitaly-wrapper: Prevent adoption of stale processes
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8633) — Add Loom coverage for I/O driver registration lifetime
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8631) — Test I/O registration races during driver shutdown
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close Unix child stdin on shutdown
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164058) — Avoid ICEs from ill-typed direct constants in MIR
-- [`VictoriaMetrics/VictoriaTraces`](https://github.com/VictoriaMetrics/VictoriaTraces/pull/278) — Use span end timestamp for OTLP Protobuf ingestion
 
 **Recent merged PRs**
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17562) — Bypass rustup proxy when RUSTUP_TOOLCHAIN is an absolute path
