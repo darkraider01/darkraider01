@@ -16,18 +16,18 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 ```text
 Rust        ██████████████████  51%
 Go          ██████████████  41%
-C           █   4%
+C           █   3%
 Makefile    █   2%
 TypeScript  █   1%
 Python      █   1%
 ```
 
 **Recent open PRs**
+- [`gitlab-org/rust/labkit-rs`](https://gitlab.com/gitlab-org/rust/labkit-rs/-/merge_requests/145) — fix(grpc): read access log status from response trailers
 - [`gitlab-org/gitaly`](https://gitlab.com/gitlab-org/gitaly/-/merge_requests/9385) — gitaly-wrapper: Prevent adoption of stale processes
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8633) — Add Loom coverage for I/O driver registration lifetime
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8631) — Test I/O registration races during driver shutdown
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close Unix child stdin on shutdown
-- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164058) — Avoid ICEs from ill-typed direct constants in MIR
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 
 **Recent merged PRs**
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17562) — Bypass rustup proxy when RUSTUP_TOOLCHAIN is an absolute path
@@ -36,5 +36,5 @@ Python      █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8582) — Remove obsolete MSRV workarounds
 
-<sub>Updated 2026-10-14 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-15 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
