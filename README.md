@@ -36,5 +36,5 @@ Python      █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8582) — Remove obsolete MSRV workarounds
 
-<sub>Updated 2026-10-15 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-16 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
