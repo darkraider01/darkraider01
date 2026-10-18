@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**59** Merged PRs &nbsp;·&nbsp; **37** Issues Raised &nbsp;·&nbsp; **20** Issues Taken &nbsp;·&nbsp; **35** Reviews Given
+**60** Merged PRs &nbsp;·&nbsp; **37** Issues Raised &nbsp;·&nbsp; **20** Issues Taken &nbsp;·&nbsp; **37** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -30,11 +30,11 @@ Python      █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1405) — fix(instrumentation/linodego): record error types on spans and duration metrics
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17562) — Bypass rustup proxy when RUSTUP_TOOLCHAIN is an absolute path
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8505) — io: add Loom coverage for deregistration and event delivery
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8603) — process: use `mio::unix::pipe` for Unix child stdio
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8582) — Remove obsolete MSRV workarounds
 
-<sub>Updated 2026-10-17 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-18 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
