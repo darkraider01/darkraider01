@@ -1,6 +1,6 @@
 # darkraider01
 
-Systems Software Engineer · Rust · Go · AI Infrastructure
+4th Year in Bachelors of Engineering · Rust · Go 
 
 I build backend systems, developer tooling, and AI infrastructure. Currently working on [Rust compile-time instrumentation](https://github.com/darkraider01/rust-compile-time-instrumentation-) — I also enjoy contributing to [tokio](https://github.com/tokio-rs/tokio) and [rust-lang](https://github.com/rust-lang).
 
