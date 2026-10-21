@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**60** Merged PRs &nbsp;·&nbsp; **37** Issues Raised &nbsp;·&nbsp; **20** Issues Taken &nbsp;·&nbsp; **40** Reviews Given
+**60** Merged PRs &nbsp;·&nbsp; **38** Issues Raised &nbsp;·&nbsp; **20** Issues Taken &nbsp;·&nbsp; **43** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -36,5 +36,5 @@ Python      █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8603) — process: use `mio::unix::pipe` for Unix child stdio
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
 
-<sub>Updated 2026-10-20 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-21 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
