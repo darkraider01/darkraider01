@@ -9,13 +9,13 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**60** Merged PRs &nbsp;·&nbsp; **38** Issues Raised &nbsp;·&nbsp; **20** Issues Taken &nbsp;·&nbsp; **46** Reviews Given
+**60** Merged PRs &nbsp;·&nbsp; **38** Issues Raised &nbsp;·&nbsp; **20** Issues Taken &nbsp;·&nbsp; **48** Reviews Given
 
 **Languages** (OSS contributions)
 
 ```text
-Rust        ███████████████████  53%
-Go          ██████████████  39%
+Rust        ███████████████████  54%
+Go          █████████████  38%
 C           █   3%
 Makefile    █   2%
 TypeScript  █   1%
@@ -23,11 +23,11 @@ Python      █   1%
 ```
 
 **Recent open PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8701) — task: clarify `block_in_place` panics in LocalSet
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3811) — docs(sdk): document the Tokio lifecycle blocking workaround
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3809) — test(sdk): cover async runtime flush and shutdown
-- [`gitlab-org/rust/labkit-rs`](https://gitlab.com/gitlab-org/rust/labkit-rs/-/merge_requests/160) — Enable OTLP tracing through standard environment configuration
+- [`gitlab-org/rust/labkit-rs`](https://gitlab.com/gitlab-org/rust/labkit-rs/-/merge_requests/160) — feat(otel): enable OTLP tracing through standard environment configuration
 - [`gitlab-org/rust/labkit-rs`](https://gitlab.com/gitlab-org/rust/labkit-rs/-/merge_requests/159) — fix(grpc): read access log status from response trailers
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8683) — Share runtime helpers across io-uring tests
-- [`gitlab-org/gitaly`](https://gitlab.com/gitlab-org/gitaly/-/merge_requests/9385) — gitaly-wrapper: Prevent adoption of stale processes
 
 **Recent merged PRs**
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1405) — fix(instrumentation/linodego): record error types on spans and duration metrics
@@ -36,5 +36,5 @@ Python      █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8603) — process: use `mio::unix::pipe` for Unix child stdio
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8596) — Test ScheduledIo shutdown races with Loom
 
-<sub>Updated 2026-10-21 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-22 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
