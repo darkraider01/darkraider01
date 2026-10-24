@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**61** Merged PRs &nbsp;·&nbsp; **38** Issues Raised &nbsp;·&nbsp; **22** Issues Taken &nbsp;·&nbsp; **50** Reviews Given
+**61** Merged PRs &nbsp;·&nbsp; **39** Issues Raised &nbsp;·&nbsp; **22** Issues Taken &nbsp;·&nbsp; **55** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -35,5 +35,5 @@ TypeScript  █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8505) — io: add Loom coverage for deregistration and event delivery
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8603) — process: use `mio::unix::pipe` for Unix child stdio
 
-<sub>Updated 2026-10-23 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-24 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
