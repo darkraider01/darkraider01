@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**62** Merged PRs &nbsp;·&nbsp; **39** Issues Raised &nbsp;·&nbsp; **22** Issues Taken &nbsp;·&nbsp; **55** Reviews Given
+**63** Merged PRs &nbsp;·&nbsp; **39** Issues Raised &nbsp;·&nbsp; **22** Issues Taken &nbsp;·&nbsp; **58** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -29,11 +29,11 @@ TypeScript  █   1%
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5484) — Use `deref_pointer` for TCP FIONBIO
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3809) — test(sdk): cover async runtime flush and shutdown
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8722) — sync: remove obsolete TODO in mpsc block reclaim
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8701) — task: clarify `block_in_place` panics in LocalSet
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1405) — fix(instrumentation/linodego): record error types on spans and duration metrics
 - [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17562) — Bypass rustup proxy when RUSTUP_TOOLCHAIN is an absolute path
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8505) — io: add Loom coverage for deregistration and event delivery
 
-<sub>Updated 2026-10-25 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-26 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
