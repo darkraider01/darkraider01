@@ -9,31 +9,31 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**70** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **22** Issues Taken &nbsp;·&nbsp; **59** Reviews Given
+**73** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **60** Reviews Given
 
 **Languages** (OSS contributions)
 
 ```text
-Rust        ██████████████████████  62%
-Go          ███████████  32%
+Rust        ██████████████████████  63%
+Go          ███████████  31%
 C           █   3%
 Makefile    █   2%
 TypeScript  █   1%
 ```
 
 **Recent open PRs**
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1588) — fix(tool): register `add_file` source imports in otelc.runtime.go
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1637) — fix(instrumentation/redis): retain hooks in Client.WithTimeout for go-redis v9.15.1 and later
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1588) — fix(tool): discover add_file source imports during setup
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3817) — feat(sdk): add standalone ProbabilitySampler
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8721) — fs: fix `io_uring` platform gates and enable read on musl
-- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164864) — Avoid hoisting uninitialized reads in EarlyOtherwiseBranch
 
 **Recent merged PRs**
+- [`gitlab-org/gitaly`](https://gitlab.com/gitlab-org/gitaly/-/merge_requests/9385) — gitaly-wrapper: Warn when adopting a different executable
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5511) — Use `deref_pointer` in socket address shims
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5510) — Use `deref_pointer` in virtual socket shims
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1284) — fix(tool/internal/instrument): stop GetParam/GetReturnVal panicking for ordinary params on generic functions
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3825) — docs: align experimental feature naming guidance
-- [`rust-lang/cargo`](https://github.com/rust-lang/cargo/pull/17641) — Warn about conflicting proc-macro manifest settings
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1333) — feat(tool): write instrumentation diff under --debug
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3741) — feat(sdk): simplify finished span ownership
 
-<sub>Updated 2026-10-28 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-10-29 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
