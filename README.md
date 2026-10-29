@@ -14,19 +14,19 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 **Languages** (OSS contributions)
 
 ```text
-Rust        ██████████████████████  63%
-Go          ███████████  31%
+Rust        ██████████████████████  64%
+Go          ██████████  29%
 C           █   3%
 Makefile    █   2%
 TypeScript  █   1%
 ```
 
 **Recent open PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8739) — examples: handle more than 16 headers in tinyhttp
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1637) — fix(instrumentation/redis): retain hooks in Client.WithTimeout for go-redis v9.15.1 and later
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1588) — fix(tool): discover add_file source imports during setup
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3817) — feat(sdk): add standalone ProbabilitySampler
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8721) — fs: fix `io_uring` platform gates and enable read on musl
 
 **Recent merged PRs**
 - [`gitlab-org/gitaly`](https://gitlab.com/gitlab-org/gitaly/-/merge_requests/9385) — gitaly-wrapper: Warn when adopting a different executable
