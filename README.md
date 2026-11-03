@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**77** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **63** Reviews Given
+**77** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **64** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -35,5 +35,5 @@ TypeScript  █   1%
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3817) — feat(sdk): add standalone ProbabilitySampler
 - [`gitlab-org/gitaly`](https://gitlab.com/gitlab-org/gitaly/-/merge_requests/9385) — gitaly-wrapper: Warn when adopting a different executable
 
-<sub>Updated 2026-11-02 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-03 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
