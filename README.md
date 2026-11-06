@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**79** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **62** Reviews Given
+**79** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **63** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -35,5 +35,5 @@ TypeScript  █   1%
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1637) — fix(instrumentation/redis): retain hooks in Client.WithTimeout for go-redis v9.15.1 and later
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1588) — fix(tool): discover add_file source imports during setup
 
-<sub>Updated 2026-11-05 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-06 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
