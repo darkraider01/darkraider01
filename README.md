@@ -14,19 +14,19 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 **Languages** (OSS contributions)
 
 ```text
-Rust        ██████████████████████  64%
-Go          ███████████  30%
+Rust        ███████████████████████  66%
+Go          ██████████  28%
 C           █   3%
 Makefile    █   2%
 TypeScript  █   1%
 ```
 
 **Recent open PRs**
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3859) — perf(sdk): consolidate tracer and recording span ownership into single Arc
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5577) — Rename evaluation context bindings in x86 intrinsics
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8739) — examples: handle more than 16 headers in tinyhttp
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8721) — fs: fix `io_uring` platform gates and enable read on musl
-- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164864) — Avoid hoisting uninitialized reads in EarlyOtherwiseBranch
-- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8702) — time: remove unreachable auto-advance handling from the alternative timer
 
 **Recent merged PRs**
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5364) — Keep cargo-miri arguments in one place
@@ -35,5 +35,5 @@ TypeScript  █   1%
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1637) — fix(instrumentation/redis): retain hooks in Client.WithTimeout for go-redis v9.15.1 and later
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1588) — fix(tool): discover add_file source imports during setup
 
-<sub>Updated 2026-11-06 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-07 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
