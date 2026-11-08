@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**80** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **66** Reviews Given
+**82** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **66** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -22,18 +22,18 @@ TypeScript  █   1%
 ```
 
 **Recent open PRs**
-- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5589) — Rename evaluation context bindings in Unix shims
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5587) — Expand incoming argfiles in cargo-miri
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3859) — perf(sdk): consolidate tracer and recording span ownership into single Arc
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8739) — examples: handle more than 16 headers in tinyhttp
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8721) — fs: fix `io_uring` platform gates and enable read on musl
 
 **Recent merged PRs**
+- [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8702) — time: remove unreachable auto-advance handling from the alternative timer
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5589) — Rename evaluation context bindings in Unix shims
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5577) — Rename evaluation context bindings in x86 intrinsics
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5364) — Keep cargo-miri arguments in one place
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8631) — Test I/O registration races during driver shutdown
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1653) — fix(redis): correct Sentinel and Conn span endpoints
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1637) — fix(instrumentation/redis): retain hooks in Client.WithTimeout for go-redis v9.15.1 and later
 
 <sub>Updated 2026-11-08 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
