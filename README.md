@@ -15,9 +15,8 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 
 ```text
 Rust        ████████████████████████  69%
-Go          ████████  24%
+Go          █████████  27%
 C           █   3%
-Makefile    █   2%
 TypeScript  █   1%
 ```
 
