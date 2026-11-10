@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**84** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **66** Reviews Given
+**86** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **68** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -21,18 +21,18 @@ TypeScript  █   1%
 ```
 
 **Recent open PRs**
-- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5603) — Rename evaluation context bindings in shims
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5587) — Expand incoming argfiles in cargo-miri
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3859) — perf(sdk): consolidate tracer and recording span ownership into single Arc
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8739) — examples: handle more than 16 headers in tinyhttp
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8721) — fs: fix `io_uring` platform gates and enable read on musl
+- [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164864) — Avoid hoisting uninitialized reads in EarlyOtherwiseBranch
 
 **Recent merged PRs**
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3774) — perf(sdk): avoid tracer clones for non-recording spans
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5603) — Rename evaluation context bindings in shims
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8702) — time: remove unreachable auto-advance handling from the alternative timer
-- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5589) — Rename evaluation context bindings in Unix shims
-- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5577) — Rename evaluation context bindings in x86 intrinsics
 
-<sub>Updated 2026-11-09 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-10 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
