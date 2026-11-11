@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**86** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **68** Reviews Given
+**86** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **24** Issues Taken &nbsp;·&nbsp; **69** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8702) — time: remove unreachable auto-advance handling from the alternative timer
 
-<sub>Updated 2026-11-10 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-11 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
