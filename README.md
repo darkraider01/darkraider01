@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**86** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **25** Issues Taken &nbsp;·&nbsp; **71** Reviews Given
+**86** Merged PRs &nbsp;·&nbsp; **41** Issues Raised &nbsp;·&nbsp; **25** Issues Taken &nbsp;·&nbsp; **72** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -21,11 +21,11 @@ TypeScript  █   1%
 ```
 
 **Recent open PRs**
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1773) — fix(tool): resolve compiler and linker archives for Go 1.28 and newer
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1776) — fix(tool): resolve rule-added import archives on Go 1.28
+- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1775) — fix(tool): improve nested import handling
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3865) — fix(otlp): isolate meter providers in metrics integration tests
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1770) — feat(pkg/runtime): option to suppress parentless client spans and excluded server paths
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5587) — Expand incoming argfiles in cargo-miri
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3859) — perf(sdk): consolidate tracer and recording span ownership into single Arc
 
 **Recent merged PRs**
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3774) — perf(sdk): avoid tracer clones for non-recording spans
@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8702) — time: remove unreachable auto-advance handling from the alternative timer
 
-<sub>Updated 2026-11-12 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-13 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
