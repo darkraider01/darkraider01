@@ -14,18 +14,18 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 **Languages** (OSS contributions)
 
 ```text
-Rust        █████████████████████████  70%
-Go          █████████  26%
+Rust        █████████████████████████  72%
+Go          ████████  24%
 C           █   3%
 TypeScript  █   1%
 ```
 
 **Recent open PRs**
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8789) — rt: track blocking pool queue latency
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1776) — fix(tool): resolve rule-added import archives on Go 1.28
-- [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1775) — fix(tool): improve nested import handling
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3865) — fix(otlp): isolate meter providers in metrics integration tests
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1770) — feat(pkg/runtime): option to suppress parentless client spans and excluded server paths
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5587) — Expand incoming argfiles in cargo-miri
+- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3859) — perf(sdk): consolidate tracer and recording span ownership into single Arc
 
 **Recent merged PRs**
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164864) — Avoid hoisting uninitialized reads in EarlyOtherwiseBranch
