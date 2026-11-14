@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**87** Merged PRs &nbsp;·&nbsp; **41** Issues Raised &nbsp;·&nbsp; **25** Issues Taken &nbsp;·&nbsp; **72** Reviews Given
+**87** Merged PRs &nbsp;·&nbsp; **41** Issues Raised &nbsp;·&nbsp; **25** Issues Taken &nbsp;·&nbsp; **68** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 
-<sub>Updated 2026-11-13 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-14 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
