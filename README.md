@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 
-<sub>Updated 2026-11-15 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-16 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
