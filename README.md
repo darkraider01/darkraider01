@@ -21,11 +21,11 @@ TypeScript  █   1%
 ```
 
 **Recent open PRs**
+- [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5635) — Test append mode with seek and reads
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8789) — rt: track blocking pool queue latency
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3865) — fix(otlp): isolate meter providers in metrics integration tests
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1770) — feat(pkg/runtime): option to suppress parentless client spans and excluded server paths
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5587) — Expand incoming argfiles in cargo-miri
-- [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3859) — perf(sdk): consolidate tracer and recording span ownership into single Arc
 
 **Recent merged PRs**
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164864) — Avoid hoisting uninitialized reads in EarlyOtherwiseBranch
@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
 - [`tokio-rs/tokio`](https://github.com/tokio-rs/tokio/pull/8619) — Close child stdin on shutdown
 
-<sub>Updated 2026-11-16 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-17 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
