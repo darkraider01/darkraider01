@@ -9,7 +9,7 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**88** Merged PRs &nbsp;·&nbsp; **41** Issues Raised &nbsp;·&nbsp; **25** Issues Taken &nbsp;·&nbsp; **69** Reviews Given
+**88** Merged PRs &nbsp;·&nbsp; **41** Issues Raised &nbsp;·&nbsp; **25** Issues Taken &nbsp;·&nbsp; **71** Reviews Given
 
 **Languages** (OSS contributions)
 
@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5603) — Rename evaluation context bindings in shims
 - [`open-telemetry/opentelemetry-go-compile-instrumentation`](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pull/1553) — refactor(tool/internal/setup): prepare instrumentation rules once per setup
 
-<sub>Updated 2026-11-18 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-19 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
