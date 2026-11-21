@@ -75,7 +75,11 @@ const GITLAB_TOKEN = process.env.GITLAB_TOKEN; // optional, raises rate limits
 
 async function gitlab(path, attempt = 1) {
   const headers = { 'User-Agent': 'oss-readme-stats' };
-  if (GITLAB_TOKEN) headers['PRIVATE-TOKEN'] = GITLAB_TOKEN;
+  // Send both header forms: PATs work with either, OAuth tokens only as Bearer.
+  if (GITLAB_TOKEN) {
+    headers['PRIVATE-TOKEN'] = GITLAB_TOKEN;
+    headers['Authorization'] = `Bearer ${GITLAB_TOKEN}`;
+  }
   const res = await fetch(`https://gitlab.com/api/v4${path}`, { headers });
   if (res.status === 429 || res.status >= 500) {
     if (attempt > 3) throw new Error(`GitLab API failed after ${attempt} attempts: ${path} -> ${res.status}`);
@@ -89,8 +93,9 @@ async function gitlab(path, attempt = 1) {
 async function fetchGitlabStats() {
   const [mrs, issues, assignedIssues, reviewedMrs] = await Promise.all([
     gitlab(`/merge_requests?author_username=${USERNAME}&scope=all&state=all&per_page=100&order_by=created_at`),
-    gitlab(`/issues?author_username=${USERNAME}&scope=all&state=all&per_page=100`),
-    gitlab(`/issues?assignee_username=${USERNAME}&scope=all&state=all&per_page=100`),
+    // /issues rejects scope=all (400) since GitLab's API change — omit it.
+    gitlab(`/issues?author_username=${USERNAME}&state=all&per_page=100`),
+    gitlab(`/issues?assignee_username=${USERNAME}&state=all&per_page=100`),
     gitlab(`/merge_requests?reviewer_username=${USERNAME}&scope=all&state=all&per_page=100`)
   ]);
 
