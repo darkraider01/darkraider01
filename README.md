@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3774) — perf(sdk): avoid tracer clones for non-recording spans
 - [`rust-lang/miri`](https://github.com/rust-lang/miri/pull/5603) — Rename evaluation context bindings in shims
 
-<sub>Updated 2026-11-21 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-22 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
