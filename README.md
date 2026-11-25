@@ -9,12 +9,12 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**90** Merged PRs &nbsp;·&nbsp; **41** Issues Raised &nbsp;·&nbsp; **23** Issues Taken &nbsp;·&nbsp; **71** Reviews Given
+**89** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **23** Issues Taken &nbsp;·&nbsp; **71** Reviews Given
 
 **Languages** (OSS contributions)
 
 ```text
-Rust        ██████████████████████████  73%
+Rust        █████████████████████████  72%
 Go          ████████  23%
 C           █   3%
 TypeScript  █   1%
