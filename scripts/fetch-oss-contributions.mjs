@@ -73,37 +73,77 @@ const byKey = Object.fromEntries(results);
 
 const GITLAB_TOKEN = process.env.GITLAB_TOKEN; // optional, raises rate limits
 
-async function gitlab(path, attempt = 1) {
+// Anonymous access works on GitLab, but an *expired* token turns every request
+// into a 401 — so drop auth and retry once before giving up.
+async function gitlab(path, attempt = 1, authed = Boolean(GITLAB_TOKEN)) {
   const headers = { 'User-Agent': 'oss-readme-stats' };
-  // Send both header forms: PATs work with either, OAuth tokens only as Bearer.
-  if (GITLAB_TOKEN) {
+  if (authed) {
+    // Send both header forms: PATs work with either, OAuth tokens only as Bearer.
     headers['PRIVATE-TOKEN'] = GITLAB_TOKEN;
     headers['Authorization'] = `Bearer ${GITLAB_TOKEN}`;
   }
   const res = await fetch(`https://gitlab.com/api/v4${path}`, { headers });
+  if ((res.status === 401 || res.status === 403) && authed) return gitlab(path, attempt, false);
   if (res.status === 429 || res.status >= 500) {
     if (attempt > 3) throw new Error(`GitLab API failed after ${attempt} attempts: ${path} -> ${res.status}`);
     await new Promise(r => setTimeout(r, 2 ** attempt * 1000));
-    return gitlab(path, attempt + 1);
+    return gitlab(path, attempt + 1, authed);
   }
   if (!res.ok) throw new Error(`GitLab ${path} -> ${res.status}`);
   return res.json();
 }
 
+// REST /issues requires auth (401) and its author/assignee filters return the
+// wrong rows (assignee_ids matches unrelated users); GraphQL is correct and
+// answers anonymously, so issue counts come from here.
+const ISSUE_QUERY = /* GraphQL */ `
+  query ($user: String!) {
+    authored: issues(authorUsername: $user, state: all, first: 100) { nodes { webUrl } }
+    assigned: issues(assigneeUsername: $user, state: all, first: 100) { nodes { webUrl } }
+  }
+`;
+
+// "https://gitlab.com/group/proj/-/issues/1" -> "group/proj"
+const namespaceOf = webUrl => new URL(webUrl).pathname.replace(/^\//, '').split('/-/')[0];
+
+async function gitlabGraphQL(query, variables, attempt = 1, authed = Boolean(GITLAB_TOKEN)) {
+  const headers = { 'User-Agent': 'oss-readme-stats', 'Content-Type': 'application/json' };
+  if (authed) {
+    headers['PRIVATE-TOKEN'] = GITLAB_TOKEN;
+    headers['Authorization'] = `Bearer ${GITLAB_TOKEN}`;
+  }
+  const res = await fetch('https://gitlab.com/api/graphql', {
+    method: 'POST',
+    headers,
+    body: JSON.stringify({ query, variables })
+  });
+  if ((res.status === 401 || res.status === 403) && authed) return gitlabGraphQL(query, variables, attempt, false);
+  if (res.status === 429 || res.status >= 500) {
+    if (attempt > 3) throw new Error(`GitLab GraphQL failed after ${attempt} attempts: ${res.status}`);
+    await new Promise(r => setTimeout(r, 2 ** attempt * 1000));
+    return gitlabGraphQL(query, variables, attempt + 1, authed);
+  }
+  if (!res.ok) throw new Error(`GitLab GraphQL -> ${res.status}`);
+  const json = await res.json();
+  if (json.errors) throw new Error(JSON.stringify(json.errors));
+  return json.data;
+}
+
 async function fetchGitlabStats() {
-  const [mrs, issues, assignedIssues, reviewedMrs] = await Promise.all([
+  // MR filters work on REST (and anonymously); issue counts must come from
+  // GraphQL because REST /issues is auth-only and its assignee filter is broken.
+  const [mrs, reviewedMrs, issueData] = await Promise.all([
     gitlab(`/merge_requests?author_username=${USERNAME}&scope=all&state=all&per_page=100&order_by=created_at`),
-    // /issues rejects scope=all (400) since GitLab's API change — omit it.
-    gitlab(`/issues?author_username=${USERNAME}&state=all&per_page=100`),
-    gitlab(`/issues?assignee_username=${USERNAME}&state=all&per_page=100`),
-    gitlab(`/merge_requests?reviewer_username=${USERNAME}&scope=all&state=all&per_page=100`)
+    gitlab(`/merge_requests?reviewer_username=${USERNAME}&scope=all&state=all&per_page=100`),
+    gitlabGraphQL(ISSUE_QUERY, { user: USERNAME })
   ]);
 
   // Exclude personal projects (anything under the user's own namespace), matching -user: on GitHub.
   const projectOf = ref => ref.split(/[!#]/)[0];
   const isOwn = ref => projectOf(ref) === USERNAME || projectOf(ref).startsWith(`${USERNAME}/`);
   const ossMrs = mrs.filter(m => !isOwn(m.references.full));
-  const ossIssues = issues.filter(i => !isOwn(i.references.full));
+  const ossIssues = issueData.authored.nodes.filter(n => !isOwn(namespaceOf(n.webUrl)));
+  const ossTaken = issueData.assigned.nodes.filter(n => !isOwn(namespaceOf(n.webUrl)));
 
   // Attribute each MR to the dominant language of its target project.
   const projectIds = [...new Set(ossMrs.map(m => m.target_project_id))].slice(0, 10);
@@ -115,7 +155,7 @@ async function fetchGitlabStats() {
   return {
     mergedMRs: ossMrs.filter(m => m.state === 'merged').length,
     issues: ossIssues.length,
-    taken: assignedIssues.filter(i => !isOwn(i.references.full)).length,
+    taken: ossTaken.length,
     reviews: reviewedMrs.filter(m => !isOwn(m.references.full) && m.author?.username !== USERNAME).length,
     openMrs: ossMrs.filter(m => m.state === 'opened'),
     mergedMrs: ossMrs.filter(m => m.state === 'merged'),

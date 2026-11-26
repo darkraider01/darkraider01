@@ -9,12 +9,12 @@ I build backend systems, developer tooling, and AI infrastructure. Currently wor
 <!-- OSS-CONTRIBUTIONS:START -->
 ### Live Open Source Activity
 
-**89** Merged PRs &nbsp;·&nbsp; **40** Issues Raised &nbsp;·&nbsp; **23** Issues Taken &nbsp;·&nbsp; **71** Reviews Given
+**90** Merged PRs &nbsp;·&nbsp; **41** Issues Raised &nbsp;·&nbsp; **25** Issues Taken &nbsp;·&nbsp; **71** Reviews Given
 
 **Languages** (OSS contributions)
 
 ```text
-Rust        █████████████████████████  72%
+Rust        ██████████████████████████  73%
 Go          ████████  23%
 C           █   3%
 TypeScript  █   1%
@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164864) — Avoid hoisting uninitialized reads in EarlyOtherwiseBranch
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3774) — perf(sdk): avoid tracer clones for non-recording spans
 
-<sub>Updated 2026-11-25 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-26 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
