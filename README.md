@@ -34,5 +34,5 @@ TypeScript  █   1%
 - [`rust-lang/rust`](https://github.com/rust-lang/rust/pull/164864) — Avoid hoisting uninitialized reads in EarlyOtherwiseBranch
 - [`open-telemetry/opentelemetry-rust`](https://github.com/open-telemetry/opentelemetry-rust/pull/3774) — perf(sdk): avoid tracer clones for non-recording spans
 
-<sub>Updated 2026-11-26 · auto-refreshed daily from live GitHub + GitLab search</sub>
+<sub>Updated 2026-11-27 · auto-refreshed daily from live GitHub + GitLab search</sub>
 <!-- OSS-CONTRIBUTIONS:END -->
